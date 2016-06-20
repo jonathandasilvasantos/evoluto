@@ -1,5 +1,8 @@
 package console
 
-func GetArgumentTree() string {
-  return "abc"
+import "../model"
+
+func GetArgumentTree() model.ArgumentTree {
+  var created model.ArgumentTree
+  return created
 }
